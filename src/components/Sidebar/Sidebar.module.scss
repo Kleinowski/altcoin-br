@@ -1,0 +1,45 @@
+.container {
+}
+
+.newsletter {
+  h2 {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+  }
+  & form {
+    margin: 0.5rem 0;
+    width: 100%;
+    position: relative;
+
+    input {
+      padding: 0.75rem 7rem 0.75rem 0.75rem;
+      background: #333;
+
+      &:focus {
+        border: 0;
+        outline: 1px solid #444;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.75rem;
+      font-weight: 600;
+      background-color: var(--dark-blue);
+      cursor: pointer;
+    }
+
+    input,
+    button {
+      border-radius: 80px;
+      font-family: inherit;
+      font-size: 0.75rem;
+      color: #fff;
+      border: 0;
+    }
+  }
+}

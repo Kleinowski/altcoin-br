@@ -1,5 +1,7 @@
 import { ReactNode } from 'react';
+import { Footer } from './Footer';
 import { Navbar } from './Navbar';
+import { Sidebar } from './Sidebar';
 
 interface LayoutProps {
   children: ReactNode;
@@ -8,8 +10,14 @@ interface LayoutProps {
 export default function Layout({ children }: LayoutProps) {
   return (
     <>
-      <Navbar />
-      {children}
+      <header>
+        <Navbar />
+      </header>
+
+      <div className="wrapper">
+        {children}
+        <Footer />
+      </div>
     </>
   );
 }

@@ -1,4 +1,29 @@
 :root {
+  --yellow: #fcea10;
+  --orange: #fdc50d;
+  --green: #65ad05;
+  --dark-blue: #0c7699;
+  --light-blue: #22a9d6;
+
+  // --swiper-pagination-color: var(--yellow);
+  // --swiper-pagination-left: auto;
+  // --swiper-pagination-right: 8px;
+  // --swiper-pagination-bottom: 0;
+  // --swiper-pagination-top: auto;
+  // --swiper-pagination-fraction-color: inherit;
+  // --swiper-pagination-bullet-size: 8px;
+  // --swiper-pagination-bullet-width: 8px;
+  // --swiper-pagination-bullet-height: 8px;
+  // --swiper-pagination-bullet-inactive-color: #eee;
+  // --swiper-pagination-bullet-inactive-opacity: 0.5;
+  // --swiper-pagination-bullet-opacity: 1;
+  // --swiper-pagination-bullet-horizontal-gap: 4px;
+  // --swiper-pagination-bullet-vertical-gap: 6px;
+
+  --swiper-navigation-top-offset: 50%;
+  --swiper-navigation-sides-offset: 0;
+  --swiper-navigation-color: var(--yellow);
+  --swiper-navigation-size: 24px !important;
 }
 
 * {
@@ -14,7 +39,7 @@ body {
 }
 
 body {
-  background: #111;
+  background: #222;
   color: #eee;
 }
 
