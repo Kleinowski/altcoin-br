@@ -1,0 +1,35 @@
+.nav {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+
+  ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+
+    a {
+      padding: 0.5rem;
+      display: block;
+      transition: color 0.3s, transform 0.1s;
+
+      &.active,
+      &:hover {
+        color: orange;
+        transform: scale(1.03);
+      }
+    }
+  }
+}
+
+.logo {
+  display: block;
+  font-weight: bold;
+  font-size: 28px;
+}
