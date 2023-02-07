@@ -1,0 +1,25 @@
+.content {
+  width: 25%;
+  height: 200px;
+  position: relative;
+
+  img {
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  span {
+    border-radius: 16px;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

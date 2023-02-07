@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import {
   RiFacebookBoxFill,
   RiGithubFill,
@@ -6,7 +5,6 @@ import {
   RiLinkedinBoxFill,
   RiTwitterFill,
 } from 'react-icons/ri';
-import facebookIcon from '../../../public/facebook.svg';
 import styles from './Footer.module.scss';
 
 export function Footer() {
@@ -42,11 +40,10 @@ export function Footer() {
           <RiGithubFill size={28} />
         </a>
       </section>
-      <section className="contact">
-        <p>
-          <span>Phone: </span>
-          <span>123-456-7890</span>
-        </p>
+      <section className={styles.contact}>
+        <span>
+          <h3>Phone: 123-456-7890</h3>
+        </span>
       </section>
 
       <section className="copyright">

@@ -11,7 +11,7 @@ import styles from './Hero.module.scss';
 
 export default function Hero() {
   return (
-    <section className={styles.container}>
+    <article className={styles.container}>
       <Swiper
         modules={[A11y, Navigation, Pagination, Autoplay]}
         slidesPerView={1}
@@ -31,10 +31,10 @@ export default function Hero() {
             </div>
             <div className={styles.content}>
               <span>Noticia</span>
-              <h1>
+              <h2>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
                 sit?
-              </h1>
+              </h2>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
                 voluptas non minima, quia architecto vitae consectetur
@@ -57,7 +57,7 @@ export default function Hero() {
             </div>
             <div className={styles.content}>
               <span>Guia</span>
-              <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h1>
+              <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias eaque excepturi odit cum accusantium! Aliquam.
@@ -69,6 +69,6 @@ export default function Hero() {
           </article>
         </SwiperSlide>
       </Swiper>
-    </section>
+    </article>
   );
 }

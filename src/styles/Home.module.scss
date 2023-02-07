@@ -1,15 +1,25 @@
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  gap: 2rem;
-  width: 100%;
+  justify-content: space-between;
+}
+
+.leftContent {
+  max-width: 70%;
 }
 
 .sectionTitle {
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 2rem 0 1rem 0;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   font-weight: 600;
+}
+
+.postsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
 }

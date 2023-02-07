@@ -1,27 +1,13 @@
 :root {
   --yellow: #fcea10;
-  --orange: #fdc50d;
+  --orange: #f3a712;
   --green: #65ad05;
   --dark-blue: #0c7699;
   --light-blue: #22a9d6;
-
-  // --swiper-pagination-color: var(--yellow);
-  // --swiper-pagination-left: auto;
-  // --swiper-pagination-right: 8px;
-  // --swiper-pagination-bottom: 0;
-  // --swiper-pagination-top: auto;
-  // --swiper-pagination-fraction-color: inherit;
-  // --swiper-pagination-bullet-size: 8px;
-  // --swiper-pagination-bullet-width: 8px;
-  // --swiper-pagination-bullet-height: 8px;
-  // --swiper-pagination-bullet-inactive-color: #eee;
-  // --swiper-pagination-bullet-inactive-opacity: 0.5;
-  // --swiper-pagination-bullet-opacity: 1;
-  // --swiper-pagination-bullet-horizontal-gap: 4px;
-  // --swiper-pagination-bullet-vertical-gap: 6px;
+  --dark-dark: #222;
 
   --swiper-navigation-top-offset: 50%;
-  --swiper-navigation-sides-offset: 0;
+  --swiper-navigation-sides-offset: 0px;
   --swiper-navigation-color: var(--yellow);
   --swiper-navigation-size: 24px !important;
 }
@@ -50,5 +36,12 @@ a {
 
 .wrapper {
   margin: auto;
-  max-width: 1200px;
+  max-width: 1440px;
+}
+
+.ads-container {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
 }

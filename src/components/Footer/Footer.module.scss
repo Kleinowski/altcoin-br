@@ -10,7 +10,15 @@
 }
 
 .icons {
-  border-radius: 12px;
+  a {
+    height: max-content;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #fff;
+    :hover {
+      color: (orange);
+    }
+  }
 }
 
 .column {
@@ -22,4 +30,9 @@
 }
 
 .contact {
+  display: inline-block;
+  width: max-content;
+  h3 {
+    font-size: 0.8rem;
+  }
 }
