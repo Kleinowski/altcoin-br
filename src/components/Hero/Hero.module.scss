@@ -1,3 +1,5 @@
+//index
+
 .imageContainer {
   width: 50%;
   height: 16rem;
@@ -57,4 +59,24 @@
   &:hover {
     color: var(--primary);
   }
+}
+
+// noticias
+
+.news-container {
+  display: grid;
+  background-color: var(--light);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.news{
+
+}
+
+.destaque{
+
 }
