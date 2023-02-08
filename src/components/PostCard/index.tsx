@@ -47,6 +47,8 @@ export default function PostCard() {
           <span className={styles.postTime}>há 20 dias</span>
         </footer>
       </Link>
+      
     </article>
+    
   );
 }
