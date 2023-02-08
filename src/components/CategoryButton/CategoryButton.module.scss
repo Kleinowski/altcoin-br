@@ -1,0 +1,22 @@
+.button {
+  padding: 0.5rem 0.75rem;
+  border-radius: 16px;
+  background: var(--primary);
+  color: var(--light);
+  font-weight: 500;
+  border: 0;
+  letter-spacing: 0.25px;
+  font-size: 0.75rem;
+  font-family: inherit;
+  transition: outline 0.1s;
+
+  &.active {
+    background-color: var(--vivid);
+  }
+
+  &:hover {
+    background-color: var(--vivid);
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+}

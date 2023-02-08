@@ -15,33 +15,33 @@
 .newsletter {
   & form {
     width: 100%;
-    position: relative;
-
     input {
-      padding: 0.75rem 7rem 0.75rem 0.75rem;
-      background: #333;
-      color: #fff;
-      border-radius: 80px;
+      padding: 0.75rem;
+      background: var(--dark);
+      color: var(--light);
+      border-radius: 80px 0 0 80px;
+      outline: 1px solid var(--primary);
 
       &:focus {
         border: 0;
-        outline: 1px solid #555;
+        outline: 1px solid var(--light);
       }
     }
 
     button {
-      position: absolute;
+      color: var(--light);
       right: 0;
       top: 0;
       padding: 0.75rem;
       font-weight: 600;
-      background-color: var(--orange);
+      background-color: var(--primary);
       cursor: pointer;
       transition: background-color 0.2s;
       border-radius: 0 80px 80px 0;
+      outline: 1px solid var(--primary);
 
       &:hover {
-        background-color: var(--yellow);
+        background-color: var(--vivid);
       }
     }
 
@@ -58,6 +58,7 @@
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  color: var(--light);
 
   a {
     padding: 0.5rem 0.5rem 0.5rem 1rem;
@@ -65,12 +66,15 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: #333;
+    background: var(--primary);
     border-radius: 80px;
     transition: color 0.3s;
 
     &:hover {
-      color: var(--orange);
+      color: var(--light);
+      background-color: var(--vivid);
+      transition: background-color 0.3s;
+      transform: scale(1.03);
     }
   }
 }
@@ -78,19 +82,27 @@
 .cryptoGraph {
   table {
     width: 100%;
+    border: 1px solid var(--primary);
+
+    tr:nth-child(even) {
+      background: var(--primary);
+    }
 
     &,
     th,
     td {
-      border: 1px solid #333;
       border-collapse: collapse;
       font-size: 0.8rem;
       text-align: center;
-      padding: 0.25rem;
+      padding: 0.5rem;
     }
 
     & th {
-      background: var(--dark-blue);
+      background: var(--primary);
+    }
+
+    .name {
+      font-weight: 600;
     }
   }
 }

@@ -23,7 +23,7 @@
 
       &.active,
       &:hover {
-        color: var(--orange);
+        color: var(--vivid);
         transform: scale(1.02);
       }
     }
@@ -34,4 +34,5 @@
   display: block;
   font-weight: bold;
   font-size: 28px;
+  color: var(--light);
 }

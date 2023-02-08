@@ -21,12 +21,12 @@
   width: 50%;
   height: 16rem;
   padding: 1rem 2rem;
-  background: #333;
+  background: var(--primary);
   border-radius: 0 16px 16px 0;
 }
 
 .content span {
-  color: var(--green);
+  color: var(--secondary);
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 600;
@@ -38,6 +38,7 @@
   margin: 0.5rem 0 0.875rem 0;
   font-size: 1rem;
   font-weight: 700;
+  color: var(--light);
 }
 
 .content p {
@@ -50,10 +51,10 @@
   font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: 600;
-  color: var(--orange);
+  color: var(--vivid);
   transition: color 0.2s;
 
   &:hover {
-    color: var(--yellow);
+    color: var(--primary);
   }
 }

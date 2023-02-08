@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import {
+  RiBitCoinFill,
   RiFacebookBoxFill,
   RiGithubFill,
   RiInstagramLine,
@@ -58,16 +59,21 @@ export function Sidebar() {
           </thead>
           <tbody>
             <tr>
-              <td>icon</td>
-              <td>Bitcoin</td>
+              <td>
+                <RiBitCoinFill size={24} />
+              </td>
+              <td className={styles.name}>Bitcoin</td>
               <td>R$ 120.000,00</td>
-              <td>-5%</td>
+              <td style={{ color: 'red' }}>-5%</td>
             </tr>
             <tr>
-              <td>icon</td>
-              <td>Ethereum</td>
+              <td>
+                {' '}
+                <RiBitCoinFill size={24} />
+              </td>
+              <td className={styles.name}>Ethereum</td>
               <td>R$ 25.000,00</td>
-              <td>+3%</td>
+              <td style={{ color: 'green' }}>+3%</td>
             </tr>
           </tbody>
         </table>

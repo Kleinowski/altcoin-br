@@ -1,38 +1,65 @@
+.footerContainer {
+  background-color: var(--dark);
+  outline: 10px none var(--light);
+}
+
 .container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-  background-color: #000;
-  color: #fff;
-  font-size: 0.8rem;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 2rem;
+  color: var(--secondary);
+  margin-top: 3rem;
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+    font-weight: 400;
+    text-align: center;
+  }
 }
 
 .icons {
+  display: flex;
+  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
   a {
     height: max-content;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    color: #fff;
     :hover {
-      color: (orange);
+      color: var(--vivid);
     }
   }
 }
 
 .column {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0.5rem;
-  color: #fff;
+  flex-direction: column;
 }
 
 .contact {
-  display: inline-block;
   width: max-content;
   h3 {
+    color: var(--vivid);
     font-size: 0.8rem;
+  }
+}
+
+.copyright {
+  text-align: center;
+  width: 100%;
+  padding: 1.5rem;
+
+  span {
+    font-size: 0.8rem;
+    font-weight: 500;
   }
 }

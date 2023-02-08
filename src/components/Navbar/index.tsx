@@ -1,33 +1,9 @@
-import axios from 'axios';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import { useEffect } from 'react';
 import styles from './Navbar.module.scss';
 
 export function Navbar() {
   const router = useRouter();
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await axios.get(
-          'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/historical?limit=10',
-          {
-            headers: {
-              'X-CMC_PRO_API_KEY': 'f8c512d0-e99b-4005-b82b-b6fbaf7ccb7b',
-              'Access-Control-Allow-Origin': '*',
-            },
-          }
-        );
-
-        console.log(response);
-      } catch (error) {
-        console.log(error);
-      }
-    };
-
-    fetchData();
-  }, []);
 
   return (
     <header>
