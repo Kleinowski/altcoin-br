@@ -40,6 +40,9 @@ export default function Hero() {
                 voluptas non minima, quia architecto vitae consectetur
                 doloremque soluta a corrupti.
               </p>
+              <div className={styles.postTime}>
+                <span>há 69 horas</span>
+              </div>
               <a href="#" className={styles.btn}>
                 Ler mais
               </a>
@@ -62,6 +65,9 @@ export default function Hero() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestias eaque excepturi odit cum accusantium! Aliquam.
               </p>
+              <div className={styles.postTime}>
+                <span>há 69 horas</span>
+              </div>
               <a href="#" className={styles.btn}>
                 Ler mais
               </a>

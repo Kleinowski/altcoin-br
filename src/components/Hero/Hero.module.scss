@@ -20,7 +20,7 @@
 .content {
   width: 50%;
   height: 16rem;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   background: var(--primary);
   border-radius: 0 16px 16px 0;
 }
@@ -35,7 +35,7 @@
 }
 
 .content h2 {
-  margin: 0.5rem 0 0.875rem 0;
+  margin: 0 0 0.875rem 0;
   font-size: 1rem;
   font-weight: 700;
   color: var(--light);
@@ -47,7 +47,7 @@
 
 .btn {
   display: inline-block;
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   font-size: 0.875rem;
   text-transform: uppercase;
   font-weight: 600;
@@ -57,4 +57,9 @@
   &:hover {
     color: var(--primary);
   }
+}
+
+.postTime span {
+  text-transform: lowercase;
+  font-weight: 500;
 }
