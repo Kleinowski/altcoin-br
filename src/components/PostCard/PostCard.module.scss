@@ -4,6 +4,8 @@
   transition: transform 0.2s;
   border-radius: 0px 0px 16px 16px;
   background-color: var(--primary);
+  border-radius: 16px;
+
   &:hover {
     transform: scale(1.04);
   }
@@ -22,7 +24,7 @@
 
   &,
   img {
-    border-radius: 16px 16px 0 0;
+    border-radius: 16px;
   }
 }
 
@@ -48,17 +50,29 @@
   }
 }
 
-.authorDetails {
+.footerContainer {
   padding: 0 1.5rem 1rem 1.5rem;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  img {
-    border-radius: 50%;
+  justify-content: space-between;
+
+  .authorDetails {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      border-radius: 50%;
+    }
+
+    span {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--vivid);
+    }
   }
-  span {
-    font-size: 0.875rem;
-    font-weight: 600;
-    color: var(--vivid);
-  }
+}
+
+.postTime {
+  font-size: 0.75rem;
 }

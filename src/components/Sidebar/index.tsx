@@ -15,7 +15,11 @@ export function Sidebar() {
       <div className={styles.newsletter}>
         <h2 className={styles.heading}>Newsletter</h2>
         <form action="">
-          <input type="text" placeholder="Digite seu melhor email..." />
+          <input
+            type="email"
+            required
+            placeholder="Digite seu melhor email..."
+          />
           <button type="submit">Inscrever-se</button>
         </form>
       </div>
@@ -47,7 +51,7 @@ export function Sidebar() {
       </div>
 
       <div className={styles.cryptoGraph}>
-        <h2 className={styles.heading}>Preços Atuais</h2>
+        <h2 className={styles.heading}>Preços Top 5</h2>
         <table>
           <thead>
             <tr>
@@ -65,6 +69,33 @@ export function Sidebar() {
               <td className={styles.name}>Bitcoin</td>
               <td>R$ 120.000,00</td>
               <td style={{ color: 'red' }}>-5%</td>
+            </tr>
+            <tr>
+              <td>
+                {' '}
+                <RiBitCoinFill size={24} />
+              </td>
+              <td className={styles.name}>Ethereum</td>
+              <td>R$ 25.000,00</td>
+              <td style={{ color: 'green' }}>+3%</td>
+            </tr>
+            <tr>
+              <td>
+                {' '}
+                <RiBitCoinFill size={24} />
+              </td>
+              <td className={styles.name}>Ethereum</td>
+              <td>R$ 25.000,00</td>
+              <td style={{ color: 'green' }}>+3%</td>
+            </tr>
+            <tr>
+              <td>
+                {' '}
+                <RiBitCoinFill size={24} />
+              </td>
+              <td className={styles.name}>Ethereum</td>
+              <td>R$ 25.000,00</td>
+              <td style={{ color: 'green' }}>+3%</td>
             </tr>
             <tr>
               <td>
