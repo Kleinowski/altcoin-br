@@ -1,11 +1,11 @@
 :root {
-  --primary: #3d5a80;
-  --vivid: #ee6c4d;
-  --light: #e0fbfc;
-  --dark: #293241;
-  --secondary: #98c1d9;
-  --white: #fff;
-  --black: #111;
+  --primary: #fcca46;
+  --vivid: #619b8a;
+  --light: #a1c181;
+  --dark: #233d4d;
+  --secondary: #fe7f2d;
+  // --white: #fff;
+  // --black: #111;
 
   --swiper-navigation-top-offset: 50%;
   --swiper-navigation-sides-offset: 0px;
@@ -27,7 +27,7 @@ body {
 
 body {
   background: var(--dark);
-  color: var(--light);
+  color: #eee;
 }
 
 a {

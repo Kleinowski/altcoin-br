@@ -38,7 +38,6 @@ export default function Hero() {
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure
                 voluptas non minima, quia architecto vitae consectetur
-                doloremque soluta a corrupti.
               </p>
               <div className={styles.postTime}>
                 <span>há 69 horas</span>

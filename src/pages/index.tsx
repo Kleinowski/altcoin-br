@@ -10,45 +10,40 @@ export default function Home() {
 
   return (
     <>
-      <div className="wrapper">
-        <h1 className={styles.sectionTitle}>Mais populares</h1>
+      <h1 className={styles.sectionTitle}>Mais populares</h1>
 
-        <div className={`${styles.container}`}>
-          <div className={styles.leftContent}>
-            <Hero />
+      <div className={styles.container}>
+        <Hero />
 
-            <h1 className={styles.sectionTitle}>últimas postagens</h1>
+        <h1 className={styles.sectionTitle}>últimas postagens</h1>
 
-            <div className={styles.categories}>
-              <CategoryButton
-                onClick={() => setActiveCategory('Noticias')}
-                isActive={activeCategory === 'Noticias'}
-              >
-                Noticias
-              </CategoryButton>
-              <CategoryButton
-                onClick={() => setActiveCategory('Guias')}
-                isActive={activeCategory === 'Guias'}
-              >
-                Guias
-              </CategoryButton>
-              <CategoryButton
-                onClick={() => setActiveCategory('Curiosidades')}
-                isActive={activeCategory === 'Curiosidades'}
-              >
-                Curiosidades
-              </CategoryButton>
-            </div>
-            <main className={styles.postsContainer}>
-              <PostCard />
-              <PostCard />
-              <PostCard />
-              <PostCard />
-              <PostCard />
-            </main>
-          </div>
-          <Sidebar />
+        <div className={styles.categories}>
+          <CategoryButton
+            onClick={() => setActiveCategory('Noticias')}
+            isActive={activeCategory === 'Noticias'}
+          >
+            Noticias
+          </CategoryButton>
+          <CategoryButton
+            onClick={() => setActiveCategory('Guias')}
+            isActive={activeCategory === 'Guias'}
+          >
+            Guias
+          </CategoryButton>
+          <CategoryButton
+            onClick={() => setActiveCategory('Curiosidades')}
+            isActive={activeCategory === 'Curiosidades'}
+          >
+            Curiosidades
+          </CategoryButton>
         </div>
+        <main className={styles.postsContainer}>
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+        </main>
       </div>
     </>
   );

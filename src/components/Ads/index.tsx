@@ -12,7 +12,7 @@ export function Ads() {
             alt=""
             fill
           />
-          <span>Klein é gayzinho</span>
+          <span>Klein ♥😊💕</span>
         </Link>
       </div>
     </>
