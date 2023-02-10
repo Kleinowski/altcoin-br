@@ -2,9 +2,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   width: 31%;
   transition: transform 0.2s;
-  border-radius: 0px 0px 16px 16px;
   background-color: var(--primary);
-  border-radius: 16px;
 
   &:hover {
     transform: scale(1.04);
@@ -24,7 +22,6 @@
 
   &,
   img {
-    border-radius: 16px;
   }
 }
 

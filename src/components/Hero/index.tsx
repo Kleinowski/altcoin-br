@@ -11,10 +11,11 @@ import styles from './Hero.module.scss';
 
 export default function Hero() {
   return (
-    <article className={styles.container}>
+    <section className={styles.container}>
       <Swiper
         modules={[A11y, Navigation, Pagination, Autoplay]}
-        slidesPerView={1}
+        slidesPerView={2}
+        spaceBetween={10}
         navigation
         autoplay
         // onSwiper={(swiper) => console.log(swiper)}
@@ -67,6 +68,7 @@ export default function Hero() {
               <div className={styles.postTime}>
                 <span>há 69 horas</span>
               </div>
+
               <a href="#" className={styles.btn}>
                 Leia mais
               </a>
@@ -74,6 +76,6 @@ export default function Hero() {
           </article>
         </SwiperSlide>
       </Swiper>
-    </article>
+    </section>
   );
 }
