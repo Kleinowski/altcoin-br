@@ -35,7 +35,7 @@
 
     button {
       margin-left: 2px;
-      color: var(--light);
+      color: var(--white);
       right: 0;
       top: 0;
       padding: 0.75rem;
@@ -48,6 +48,7 @@
 
       &:hover {
         background-color: var(--vivid);
+        color: var(--primary);
       }
     }
 
@@ -63,8 +64,8 @@
 .socials {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  color: var(--light);
+  gap: 1rem;
+  color: var(--white);
 
   a {
     padding: 0.5rem 0.5rem 0.5rem 1rem;
@@ -77,10 +78,11 @@
     transition: color 0.3s;
 
     &:hover {
-      color: var(--light);
+      color: var(--primary);
       background-color: var(--vivid);
-      transition: background-color 0.3s;
+      transition: background-color 0.2s;
       transform: scale(1.03);
+      transition: transform 0.1s;
     }
   }
 }

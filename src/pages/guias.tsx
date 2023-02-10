@@ -1,7 +1,17 @@
+import Guides from '@/components/Guides';
+import styles from '@/styles/Guides.module.scss';
 export default function Guias() {
   return (
     <div className="wrapper">
-      <h1>guias</h1>
+      <div className={styles.container}>
+        <section className={styles.guides}>
+          <Guides />
+          <Guides />
+          <Guides />
+          <Guides />
+          <Guides />
+        </section>
+      </div>
     </div>
   );
 }

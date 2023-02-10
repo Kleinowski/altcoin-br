@@ -43,7 +43,7 @@ export default function Hero() {
                 <span>há 69 horas</span>
               </div>
               <a href="#" className={styles.btn}>
-                Ler mais
+                Leia mais
               </a>
             </div>
           </article>
@@ -68,7 +68,7 @@ export default function Hero() {
                 <span>há 69 horas</span>
               </div>
               <a href="#" className={styles.btn}>
-                Ler mais
+                Leia mais
               </a>
             </div>
           </article>

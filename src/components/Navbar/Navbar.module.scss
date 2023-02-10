@@ -21,11 +21,13 @@
       transition: color 0.3s, transform 0.1s;
       font-size: 0.875rem;
       font-weight: 400;
-      color: #eee;
+      color: var(--white);
 
-      &.active,
+      &.active {
+        color: var(--secondary);
+      }
       &:hover {
-        color: var(--primary);
+        color: var(--vivid);
         transform: scale(1.02);
       }
     }

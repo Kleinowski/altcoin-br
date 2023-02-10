@@ -24,7 +24,7 @@
   width: 50%;
   height: 16rem;
   padding: 0.5rem 2rem;
-  // background: var(--secondary);
+  background: var(--primary);
   border-radius: 0 16px 16px 0;
 }
 
@@ -58,7 +58,7 @@
   transition: color 0.2s;
 
   &:hover {
-    color: var(--primary);
+    color: var(--light);
   }
 }
 

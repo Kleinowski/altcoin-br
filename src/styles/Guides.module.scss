@@ -1,0 +1,16 @@
+.guides {
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--secondary);
+  }
+}

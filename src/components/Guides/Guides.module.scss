@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary);
+  border-radius: 8px;
+  margin: 3rem;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+}
+.guides {
+  width: 100%;
+}
+
+.img {
+  justify-content: center;
+  width: 50rem;
+  position: relative;
+  height: 6rem;
+  img {
+    width: 100%;
+    image-rendering: auto;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: 0px 8px solid var(--dark);
+  }
+}
