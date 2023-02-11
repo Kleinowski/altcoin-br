@@ -24,10 +24,10 @@
       color: var(--white);
 
       &.active {
-        color: var(--secondary);
+        color: var(--vivid);
       }
       &:hover {
-        color: var(--vivid);
+        color: var(--secondary);
         transform: scale(1.02);
       }
     }

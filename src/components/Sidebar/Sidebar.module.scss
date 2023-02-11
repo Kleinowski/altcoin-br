@@ -22,33 +22,36 @@
     width: 100%;
     input {
       padding: 0.75rem;
-      background: var(--dark);
-      color: var(--light);
+      background: var(--primary);
+      color: var(--white);
       border-radius: 80px 0 0 80px;
       outline: 1px solid var(--primary);
 
       &:focus {
         border: 0;
-        outline: 1px solid var(--light);
-      }
+        outline: 1px solid var(--secondary);
+        
+         }
     }
 
     button {
       margin-left: 2px;
-      color: var(--white);
+      color: var(--primary);
       right: 0;
       top: 0;
       padding: 0.75rem;
       font-weight: 600;
-      background-color: var(--primary);
+      background-color: var(--vivid);
       cursor: pointer;
       transition: background-color 0.2s;
       border-radius: 0 80px 80px 0;
       outline: 1px solid var(--primary);
 
       &:hover {
-        background-color: var(--vivid);
+        background-color: var(--light);
         color: var(--primary);
+        transform: scale(1.03);
+        transition: transform 0.1s;
       }
     }
 
