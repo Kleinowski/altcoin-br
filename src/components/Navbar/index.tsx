@@ -58,6 +58,16 @@ export function Navbar() {
               Glossário
             </Link>
           </li>
+          <li>
+            <Link
+              href="/contato"
+              className={
+                router.pathname === '/contato' ? `${styles.active}` : ''
+              }
+            >
+              Contato
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>

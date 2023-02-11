@@ -20,22 +20,22 @@
 .newsletter {
   & form {
     width: 100%;
+    display: flex;
+    align-items: center;
+
     input {
       padding: 0.75rem;
-      background: var(--primary);
+      background: #222;
       color: var(--white);
-      border-radius: 80px 0 0 80px;
-      outline: 1px solid var(--primary);
+      border-radius: 8px 0 0 8px;
 
       &:focus {
         border: 0;
         outline: 1px solid var(--secondary);
-        
-         }
+      }
     }
 
     button {
-      margin-left: 2px;
       color: var(--primary);
       right: 0;
       top: 0;
@@ -43,15 +43,12 @@
       font-weight: 600;
       background-color: var(--vivid);
       cursor: pointer;
-      transition: background-color 0.2s;
-      border-radius: 0 80px 80px 0;
-      outline: 1px solid var(--primary);
+      transition: background-color 0.2s, color 0.2s;
+      border-radius: 0 8px 8px 0;
 
       &:hover {
         background-color: var(--light);
         color: var(--primary);
-        transform: scale(1.03);
-        transition: transform 0.1s;
       }
     }
 
@@ -76,9 +73,9 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-    background: var(--primary);
-    border-radius: 80px;
+    background: var(--vivid);
     transition: color 0.3s;
+    border-radius: 8px;
 
     &:hover {
       color: var(--primary);
@@ -93,11 +90,6 @@
 .cryptoGraph {
   table {
     width: 100%;
-    border: 1px solid var(--primary);
-
-    tr:nth-child(even) {
-      background: var(--primary);
-    }
 
     &,
     th,

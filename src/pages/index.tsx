@@ -43,6 +43,16 @@ export default function Home() {
           <PostCard />
           <PostCard />
           <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
+          <PostCard />
         </main>
       </div>
     </>
